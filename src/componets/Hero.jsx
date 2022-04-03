@@ -13,7 +13,8 @@ function Hero() {
 }
 
 const Div = styled.div`
-    margin: 50px 80px;
+    margin: 50px auto;
+    width: 70%;
     display: flex;
     // align-items: center;
     justify-content: space-between;
