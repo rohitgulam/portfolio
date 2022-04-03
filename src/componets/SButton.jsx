@@ -11,13 +11,13 @@ function SButton({ text }) {
 
 const Btn = styled(Link)`
   display: inline-block;
-  color: #14213d;
+  color: #023047;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   padding: 18px 36px;
   border-radius: 4px;
-  border: 2px solid #14213d;
+  border: 2px solid #023047;
   background: transparent;
   position: relative;
   z-index: 1;
@@ -28,7 +28,7 @@ const Btn = styled(Link)`
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #14213d;
+    background-color: #023047;
     left: 0;
     top: 0;
     z-index: -1;
