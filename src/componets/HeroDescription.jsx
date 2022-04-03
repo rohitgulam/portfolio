@@ -17,7 +17,7 @@ function HeroDescription() {
         </div>
         <div className='button-group'>
             <Button text="Hire Me Now"/>
-            <SButton text="Learn Mire"/>
+            <SButton text="Learn More"/>
         </div>
     </Div>
   )
@@ -29,6 +29,7 @@ const Div =  styled.div`
     h1{
         text-transform: capitalize;
         font-size: 2.5rem;
+        color: #023047;
     }
 
     .text-group{
@@ -48,7 +49,6 @@ const Div =  styled.div`
     }
 
     .button-group{
-        outline: 1px solid red;
         width: 380px;
         display: flex;
         justify-content: space-between;
