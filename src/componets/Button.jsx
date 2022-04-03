@@ -17,10 +17,27 @@ const Btn = styled(Link)`
   padding: 18px 36px;
   border-radius: 4px;
   background: #faa338;
-  transition: background-color 200ms ease-in-out;
+  position: relative;
+  z-index: 1;
 
-  :hover{
-    background: #FAAB4B;
+
+  :after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: transform 200ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+
+  :hover:after{
+    transform: scaleX(1);
+    transform-origin: left;
   }
    
 `;
