@@ -17,7 +17,7 @@ const Div = styled.div`
     display: flex;
     // align-items: center;
     justify-content: space-between;
-    height: 88vh;
+    /* height: 88vh; */
 `;
 
 export default Hero
