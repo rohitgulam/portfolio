@@ -18,7 +18,7 @@ function Navbar() {
                 <NavLink to="/blog" >Blog</NavLink>
             </li>
         </ListItems>
-        <Button text="Start My Project" />
+        <Button text="Start My Project"/>
     </Nav>
   )
 }

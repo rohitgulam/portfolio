@@ -10,6 +10,7 @@ function Button({ text }) {
 }
 
 const Btn = styled(Link)`
+  display: inline-block;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
