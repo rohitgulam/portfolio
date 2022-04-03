@@ -5,23 +5,10 @@ import Button from './Button';
 
 function Navbar() {
 
-    
-
-    useEffect(() => {
-        getTitle();
-    }, [])
-
-    const getTitle = async () => {
-        const api = await fetch('https://rohitgulam.com/wp-json')
-
-        const data = await api.json()
-
-    }
-
   return (
     <Nav>
         <span className="site-title">
-            <STitle to="/" >Rohit</STitle>
+            <STitle to="/" >Rohit Gulam</STitle>
         </span>
         <ListItems>
             <li>
@@ -31,7 +18,7 @@ function Navbar() {
                 <NavLink to="/blog" >Blog</NavLink>
             </li>
         </ListItems>
-        <Button text="Hire Me" />
+        <Button text="Start My Project" />
     </Nav>
   )
 }
