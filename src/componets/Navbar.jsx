@@ -26,7 +26,7 @@ function Navbar() {
 const Nav = styled.div`
     display: flex;
     align-items: center;
-    height: 12vh;
+    height: 10vh;
     width: 96%;
     margin: 0 auto;
 `;
