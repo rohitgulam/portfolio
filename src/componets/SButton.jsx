@@ -17,7 +17,7 @@ const Btn = styled(Link)`
   font-weight: 600;
   padding: 18px 36px;
   border-radius: 4px;
-  border: 2px solid #023047;
+  border: 1px solid #023047;
   background: transparent;
   position: relative;
   z-index: 1;
