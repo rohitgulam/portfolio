@@ -45,10 +45,6 @@ const Div = styled.div`
             padding: 10px 0;
         }
     }
-
-    h2{
-        font-size: 2.4rem;
-    }
 `;
 
 export default Service
