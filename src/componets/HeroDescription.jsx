@@ -49,9 +49,13 @@ const Div =  styled.div`
     }
 
     .button-group{
-        width: 380px;
-        display: flex;
-        justify-content: space-between;
+        width: 680px;
+        /* display: inline-flex;
+        justify-content: space-between; */
+        
+        a{
+            margin-right: 20px;
+        }
     }
 `;
 
