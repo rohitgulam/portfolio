@@ -27,6 +27,10 @@ const Div = styled.div`
      /* background: rgb(2,1,23);
     background: linear-gradient(115deg, rgba(2,1,23,1) 0%, rgba(7,7,103,1) 44%, rgba(0,170,255,1) 100%);  */
     background-color: #24305e;
+
+    /* background-color: #fff; */
+    /* background-image: -webkit-gradient(linear,right top,left top,from(#ef4136),to(#4353ff)); */
+    /* background-image: linear-gradient(270deg,#ef4136,#4353ff); */
     color: #fff;
     padding: 20px;
 
