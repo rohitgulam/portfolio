@@ -20,6 +20,7 @@ function Testimonial() {
 }
 
 const Div = styled.div`
+    margin: 60px 0;
 
     .container{
         width: 50%;
